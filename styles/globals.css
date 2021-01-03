@@ -18,3 +18,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header .top-searchbar {
+  position: relative;
+  margin: 20px auto;
+  margin-left: 133px;
+  width: 692px;
+  padding-left: 27px;
+}
+
+.logo-large {
+  left: -139px !important;
+}
