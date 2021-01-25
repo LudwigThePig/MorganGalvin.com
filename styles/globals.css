@@ -10,9 +10,39 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+input{
+  font-family: arial, sans-serif !important;
+}
+
 a {
+  color: #1a0dab; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #609;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.serach-result-container {
+  margin-right: 264px;
+  margin-left: 180px;
+  width: 652px;
+}
+
+.search-result {
+  width: 600px;
+  margin-bottom: 28px;
+}
+
+.serach-result a {
   color: inherit;
-  text-decoration: none;
 }
 
 header .top-searchbar {
