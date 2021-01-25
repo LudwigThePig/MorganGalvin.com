@@ -9,13 +9,13 @@ const fakeSearchResults: SearchResultProps[] = [
     id: '0',
     header: 'Ludwig the Pig',
     body: 'A website by pigs, for pigs.',
-    url: 'https://ludwigthepig.com'
+    url: 'https://ludwigthepig.com',
   },
   {
     id: '1',
     header: 'Google',
     body: 'Search the world\'s information, including webpages, images, videos and more. Google has many special features to help you find exactly what you\'re looking ...',
-    url: 'https://google.com'
+    url: 'https://google.com',
   },
 ];
 
