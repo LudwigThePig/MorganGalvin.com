@@ -15,7 +15,7 @@ export function SearchBar() {
   return (
     <div className="border rounded-3xl border-gray-200 flex flex-1 flex-wrap pl-2 pt-2">
       <input
-        className="leading-8 h-8 outline-none mb-1 ml-3 flex flex-1"
+        className="leading-8 h-8 outline-none mb-1 ml-3 flex flex-1 arial"
         maxLength={2048}
         name="q"
         type="text"

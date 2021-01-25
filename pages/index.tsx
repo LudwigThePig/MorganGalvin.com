@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { BioContainer } from '../components/Bio/BioContainer';
 import {Header} from '../components/Header'
 import { SearchResultProps } from '../components/SearchResults/SearchResult';
 import { SerachResultsContainer } from '../components/SearchResults/SearchResultsContainer';
@@ -31,6 +32,7 @@ export default function Home() {
       <main className="grid-cols-2 grid-rows-2 h-screen w-screen">
         <Header />
         <SerachResultsContainer results={fakeSearchResults} />
+        <BioContainer />
       </main>
     </div>
   )
